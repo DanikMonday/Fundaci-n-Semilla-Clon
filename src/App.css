@@ -58,6 +58,12 @@
     
 }
 }
+
+@media (max-width: 455px) { 
+    .content{
+    width:300px;
+}
+}
 /* -----------------------Aside--------------- */
 aside{
   margin-top: 116px;
@@ -161,6 +167,13 @@ aside{
     width: 300px;
     height: 400px;
 
+  }
+}
+
+@media (max-width: 455px) { 
+    .login-admin-cont{
+    width: 300px;
+    height: 400px;
   }
 }
 .form-login{
