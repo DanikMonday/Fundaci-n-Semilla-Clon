@@ -17,7 +17,7 @@
 /* -----------------------Header--------------- */
 
 .header{
-  width: 100%;
+  width: 100vw;
   height: 115px;
   background-color: #7CBB7C;
   display: flex;
@@ -33,12 +33,25 @@
   }
 }
 
+@media (max-width: 445px) { 
+  .header{
+    height: 85px;
+  }
+}
+
 .cont-logo{
   width: 110px;
   height: 110px;
   margin-left: 28px;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 445px) { 
+  .cont-logo{
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .img-enc{
@@ -55,13 +68,12 @@
 @media (max-width: 900px) { 
   .content{
     width: 450px;
-    
 }
 }
 
 @media (max-width: 455px) { 
     .content{
-    width:300px;
+    width:280px;
 }
 }
 /* -----------------------Aside--------------- */
@@ -120,7 +132,6 @@ aside{
   height: 620px;
   margin-top: 115px;
   display: flex;
- 
   flex-direction: column;
 }
 
@@ -136,6 +147,13 @@ aside{
   .admin-login{
     width: 300px;
     margin-top: 115px;
+    height: 620px;
+  } 
+}
+@media (max-width: 455px) { 
+  .admin-login{
+    width: 300px;
+    height: 470px;
   } 
 }
 .admin-login h2{
@@ -231,6 +249,14 @@ aside{
     display: flex;
     justify-content: center;
     margin-right: 30px;
+  }
+  
+}
+@media (max-width: 450px) { 
+  .login-btn{
+    width: 200px;
+    margin: 0;
+    margin-top: 15px;
   }
   
 }
