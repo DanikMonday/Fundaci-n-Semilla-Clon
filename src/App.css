@@ -14,6 +14,7 @@
     width: 100vw;
   }
 }
+
 /* -----------------------Header--------------- */
 
 .header{
@@ -358,14 +359,15 @@ aside{
 @media (max-width: 900px) { 
   footer{
   width: 100%;
-  height: 70px;
+  height: 80px;
   background-color: #ffffff;
   margin-top: 45px;
-  bottom: 0px;
-  position: absolute;
+ 
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+   position: absolute;
+   bottom: 0px;
   
 }
 }
@@ -386,7 +388,10 @@ aside{
     margin-top: 30px;
     width: 35px;
   }
-  
+  .central-body{
+    height: 100vh;
+   }
+}
   @media (max-width: 900px) { 
     .img-plant-icon{
       margin-top: 0px;
@@ -397,4 +402,4 @@ aside{
     width: 40px;
     height: 40px;
   }
-}
+
