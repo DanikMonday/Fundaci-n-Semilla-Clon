@@ -307,6 +307,12 @@ aside{
    margin: 0 auto;
   }
 }
+
+@media (max-width: 450px) { 
+  .central-body{
+    max-height: 700px;
+  }
+}
 /* -----------------------Form--------------- */
 
 .cont-form{
@@ -389,7 +395,7 @@ aside{
   }
   .central-body{
     height: 100vh;
-    max-height: 700px;
+    
    }
 }
   @media (max-width: 900px) { 
