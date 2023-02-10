@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    min-height: 100%;
+    min-height: 90%;
     width: 100vw;
     overflow: hidden;
   }
@@ -389,6 +389,7 @@ aside{
   }
   .central-body{
     height: 100vh;
+    max-height: 600px;
    }
 }
   @media (max-width: 900px) { 
