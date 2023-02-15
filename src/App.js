@@ -12,9 +12,10 @@ function App() {
     <div className="App">
       <Header/>
       <div className='content'>
-        <div className='lateral'><Aside/></div>
-        <div className='central-body'><Session/></div>
+        {/* <div className='lateral'><Aside/></div>
+        <div className='central-body'><Session/></div> */}
       </div>
+      <Form/>
       <Footer/>
     </div>
   );

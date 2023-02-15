@@ -6,10 +6,10 @@
 
 @media (max-width: 900px) { 
   .App{
-    background-image:url(./images/manos1.png);
+    /* background-image:url(./images/manos1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
     min-height: 90%;
     width: 100vw;
     overflow: hidden;
@@ -37,7 +37,7 @@
 
 @media (max-width: 445px) { 
   .header{
-    height: 85px;
+    height: 80px;
   }
 }
 
@@ -313,52 +313,6 @@ aside{
     max-height: 700px;
   }
 }
-/* -----------------------Form--------------- */
-
-.cont-form{
-  margin: 0 auto;
-  background-image:url(./images/unidos.png);
-  width: 1080px;
-  height: 750px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.donation-form{
-  margin: auto;
-  background-color: #d9d9d9;
-  width: 700px;
-  height: 750px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.donation-form h1{
-  width: 400px;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.donation-form h2{
-  font-size: 25px;
-  color: #008000;
-  margin-top: 30px;
-  font-weight: 400;
-}
-
-.donation-form label{
-  margin-left: 10px;
-}
-
-.person-type{
-  margin: 10px;
-  display: flex;
-  width: 400px;
-  justify-content: space-around;
-}
 
 
 /* ---------------------------Footer------------------ */
@@ -409,3 +363,338 @@ aside{
     height: 40px;
   }
 
+/* -----------------------Form--------------- */
+
+.cont-form{
+  margin: 115px auto 0px;
+  background-image:url(./images/unidos.png);
+  width: 1080px;
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {  
+.cont-form{
+  width: 800px;
+  height: 750px;
+}
+}
+@media (max-width: 800px) {  
+.cont-form{
+  width: 650px;
+  margin: 115px auto 0px;
+}
+}
+@media (max-width:650px) {  
+.cont-form{
+  width: 500px;
+   margin: 115px auto 0px;
+}
+}
+@media (max-width: 480px) { 
+  .cont-form{
+    width: 320px;
+  }
+}
+.donation-form{
+  margin: auto;
+  background-color: #d9d9d9;
+  width: 700px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1024px) { 
+.donation-form{
+  width: 600px;
+}
+}
+@media (max-width: 800px) { 
+.donation-form{
+  width: 550px;
+}
+}
+@media (max-width: 650px) { 
+.donation-form{
+  width: 400px;
+}
+}
+
+.donation-form h1{
+  width: 400px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 650px) { 
+  .donation-form h1{
+  width: 300px;
+  font-size: 20px;
+}
+}
+
+.donation-form h2{
+  font-size: 25px;
+  color: #008000;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+@media (max-width: 650px) { 
+  .donation-form h2{
+  font-size: 20px;
+}
+}
+
+.donation-form label{
+  margin-left: 10px;
+}
+
+.person-type{
+  margin: 30px;
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+}
+
+@media (max-width: 650px) { 
+  .person-type{
+  width: 300px;
+}
+
+}
+
+.person-type label{
+  font-size: 20px;
+}
+
+@media (max-width: 650px) { 
+  .person-type label{
+    font-size: 15px;
+  }
+}
+.form-fields{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  gap: 25px;
+  justify-content: center;
+  font-size: 20px;
+}
+
+@media (max-width: 650px) { 
+  .form-fields{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 15px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 370px) { 
+  .form-fields{
+    display: flex;
+    flex-wrap: wrap;
+    width:370px;
+    gap: 5px;
+    font-size: 15px;
+  }
+}
+.form-fields div{
+  width:35%;
+  text-align: center;
+}
+
+.certif{
+  display: flex;
+}
+
+.form-fields input{
+  background-color: transparent;
+  border: 2px solid green;
+  width: 200px;
+  height: 30px;
+}
+
+@media (max-width: 650px) { 
+  .form-fields input{
+    width: 170px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 370px) { 
+  .form-fields input{
+    width: 130px;
+    height: 25px;
+  }
+}
+.form-fields input::placeholder{
+  color: #0f0f0f;
+  font-size: 20px;
+  text-align:center;
+}
+
+@media (max-width: 650px) { 
+.form-fields input::placeholder{
+  color: #0f0f0f;
+  font-size: 16px;
+  text-align:center;
+}
+
+}
+select{
+  background-color: transparent;
+  border: 1px solid black;
+  width: 180px;
+  height: 30px;
+  font-size: 20px;
+  text-align:center;
+}
+
+@media (max-width: 650px) { 
+  select{
+    width: 160px;
+    height: 25px;
+    font-size: 16px;
+  }
+  
+}
+
+@media (max-width: 370px) { 
+  select{
+    width: 130px;
+    height: 25px;
+    font-size: 16px;
+  }
+}
+.radio-input{
+  font-size: 20px;
+  width:20px;
+  height: 20px;
+}
+
+
+.certif input{
+  font-size: 20px;
+  width:20px;
+  height: 20px;
+}
+
+@media (max-width: 650px) { 
+  .certif input{
+    font-size: 15px;
+  }
+  
+}
+
+@media (max-width: 650px) { 
+  .certif label{
+    font-size: 15px;
+  }
+
+  .req{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 370px) { 
+  .certif label{
+   margin-left: 5px;
+  }
+  .cerf div{
+    width: 20px;
+}
+}
+
+.aditional-comments input{
+ width: 500px;
+ height: 100px;
+ text-align: center;
+ margin-top: 45px;
+ background-color: transparent;
+ border: 2px solid green;
+ font-size: 20px;
+}
+
+@media (max-width: 650px) { 
+  .aditional-comments input{
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+   }
+}
+
+.send-form{
+  margin-top: 30px;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+@media (max-width: 650px) { 
+  .send-form{
+    margin-top: 30px;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 370px) { 
+    .send-form{
+    margin-top: 30px;
+    display: flex;
+    width: 310px;
+    justify-content: space-between;
+    font-size: 13px;
+  }
+}
+.send-form button{
+  width: 110px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #008000;
+  color: white;
+  border-style: none;
+}
+
+@media (max-width: 650px) { 
+  .send-form button{
+    width: 80px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #008000;
+    color: white;
+    border-style: none;
+  }  
+
+  .terms{
+    text-align: justify;
+  }
+}
+
+.terms-form{
+  width: 370px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 370px) { 
+  .terms-form{
+  width: 220px;
+  display: flex;
+  align-items: center;
+}
+}
